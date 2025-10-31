@@ -14,6 +14,12 @@
             Chomik zwierze = new Chomik();
             zwierze.Poglaszcz();
             zwierze.WydajDzwiek();
+
+            Bankomat bank = new();
+            Console.WriteLine(bank.Saldo);
+
+            bank.Wplac(20.50);
+            bank.Wyplac(16.00);
         }
     }
 }
