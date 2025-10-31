@@ -10,6 +10,10 @@
             samochod.rocznik = 1984;
 
             samochod.WyswietlMarke();
+
+            Chomik zwierze = new Chomik();
+            zwierze.Poglaszcz();
+            zwierze.WydajDzwiek();
         }
     }
 }
