@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Obiektowe
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Samochod samochod = new Samochod();
+
+            samochod.Marka = "BMW";
+            samochod.rocznik = 1984;
+
+            samochod.WyswietlMarke();
+        }
+    }
+}
